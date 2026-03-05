@@ -17,7 +17,7 @@ from fpdf import FPDF
 matplotlib.use("TkAgg")
 
 # ====================== 配置信息 ======================
-ZHIPU_API_KEY = "17d87e338dd2444fbf38812658e25718.iHNTNpYrGrS4taM6"
+ZHIPU_API_KEY = "私有密钥"
 ZHIPU_API_URL = "https://open.bigmodel.cn/api/paas/v4/chat/completions"
 ZHIPU_MODEL = "glm-4"
 
@@ -748,4 +748,5 @@ class App(ctk.CTk):
 
 if __name__ == "__main__":
     app = App()
+
     app.mainloop()
